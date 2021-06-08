@@ -1,7 +1,7 @@
 package com.company;
 
 /**
- * КруглоеОтверстие совместимо с КруглымиКолышками.
+ * кофе совместимо с кофейным аппаратом.
  */
 public class CofeeJar {
     private double fats;

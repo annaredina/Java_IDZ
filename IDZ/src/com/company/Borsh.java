@@ -1,5 +1,5 @@
 package com.company;
-
+/**Борщ не совместим с кофе машиной**/
 public class Borsh {
     private double sourCream;
 
@@ -13,7 +13,7 @@ public class Borsh {
 
     public double getFoam() {/**из сметаны в борще делаем сливки менее жирные**/
         double result;
-        result = Math.pow(this.sourCream, 1/2);
+        result = Math.pow(this.sourCream, 2);
         return result;
     }
 }

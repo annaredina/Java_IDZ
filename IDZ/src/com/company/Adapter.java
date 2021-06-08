@@ -1,7 +1,7 @@
 package com.company;
 
 public class Adapter extends Coffee {
-    private Borsh cup;
+    public Borsh cup;
 
     public Adapter(Borsh cup) {
         this.cup = cup;
